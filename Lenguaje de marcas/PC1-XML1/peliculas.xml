@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE peliculas [
+    <!ELEMENT peliculas (pelicula+)>
+    <!ELEMENT pelicula (titulo,director,pais,anio,genero)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT director (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+]>
+<peliculas>
+    <pelicula>
+            <titulo>Una película de Minecraft</titulo>
+            <director>Jared Hess</director>
+            <pais>Estados Unidos</pais>
+            <anio>2025</anio>
+            <genero>Aventura / Fantasía / Comedia</genero>
+
+    </pelicula>
+    <pelicula>
+            <titulo>Cómo entrenar a tu dragón</titulo>
+            <director>Dean DeBlois</director>
+            <pais>Estados Unidos</pais>
+            <anio>2025</anio>
+            <genero>Aventura / Fantasía / Acción</genero>
+
+    </pelicula>
+
+
+
+
+
+</peliculas>

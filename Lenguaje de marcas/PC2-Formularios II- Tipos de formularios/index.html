@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios II. Tipos de formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Elementos de un formulario web</h1>
+        <p>HTML ofrece diferentes controles de formulario para que los usuarios puedan introducir, seleccionar y enviar información. Aqui tienes todos los tipos principales con ejemplos.</p>
+    </header>
+   <main>
+    <section>
+        <h2>Campo de texto</h2>
+        <def>Permite escribir una línea de texto</def>
+        <code>&lt;input type="text"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Color:
+                <input type="text" name="color" placeholder="¿Cuál es tu color favorito?">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Contraseña</h2>
+        <def>Texto oculto por seguridad</def>
+        <code>&lt;input type="password"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Contraseña:
+                <input type="password" name="Clave" placeholder="Escribe una contraseña segura">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Correo electrónico</h2>
+        <def>Para direccciones de email</def>
+        <code>&lt;input type="email"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Email:
+                <input type="email" name="Email" placeholder="ejemplo@gmail.com">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Número</h2>
+        <def>Permite introducir números</def>
+        <code>&lt;input type="number"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Década:
+                <input type="number" min="1920" max="2020" step="10" name="Número" placeholder="1, 2, 3...">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Teléfono</h2>
+        <def>Para números de teléfono</def>
+        <code>&lt;input type="tel"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Teléfono:
+                <input type="tel" name="Teléfono" placeholder="600 000 000">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+    <section>
+        <h2>URL</h2>
+        <def>Para direcciones web</def>
+        <code>&lt;input type="url"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Sitio web:
+                <input type="url" name="Enlace" placeholder="https://ejemplo.com">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Búsqueda</h2>
+        <def>Campo de búsqueda</def>
+        <code>&lt;input type="search"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Buscar:
+                <input type="search" name="Buscar" placeholder="Escribe aqui...">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Fecha</h2>
+        <def>Permite introducir fechas</def>
+        <code>&lt;input type="date"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Fecha:
+                <input type="date" name="Fecha" placeholder="">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Hora</h2>
+        <def>Selector de hora</def>
+        <code>&lt;input type="time"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Hora de la cita:
+                <input type="time" name="Hora" placeholder="">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Semana</h2>
+        <def>Selector de semana</def>
+        <code>&lt;input type="week"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Semana:
+                <input type="week" name="Semana" placeholder="">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Mes</h2>
+        <def>Selector de mes</def>
+        <code>&lt;input type="month"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Mes:
+                <input type="month" name="Mes" placeholder="">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Fecha y hora</h2>
+        <def>Selector de fecha y hora</def>
+        <code>&lt;input type="datetime-local"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Fecha y hora:
+                <input type="datetime-local" name="FechayHora" placeholder="">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Color</h2>
+        <def>Permite introducir colores</def>
+        <code>&lt;input type="color"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Color:
+                <input type="color" name="Color" placeholder="">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Rango</h2>
+        <def>Permite introducir valores dentro de un rango</def>
+        <code>&lt;input type="color"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Rango:
+                <input type="range" min="0" max="100" step="5" id="tamanio" name="Rango" placeholder="">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Checkbox</h2>
+        <def>Permite una selección múltiple</def>
+        <code>&lt;input type="checkbox"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>¿Cúales fueron las causas de la primera revolución francesa?</label>
+            <label>Descontento del pueblo:
+                <input type="checkbox" id="checkbox" name="Checkbox" value="descontento">
+            </label>
+            <label>Abusos de la aristocracia:
+                <input type="checkbox" id="checkbox" name="Checkbox" value="abusos">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+   </main>
+  
+</body>
+</html>

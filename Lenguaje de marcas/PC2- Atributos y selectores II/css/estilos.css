@@ -1,0 +1,76 @@
+body{ /*selector de elemento*/
+    background-color: beige;
+    margin:0;padding: 0;
+}
+
+
+header{
+    background-color:  cyan;
+    margin: auto;padding: 30px; border: 10px solid red;
+    width: 90%;box-sizing: border-box;
+}
+
+.fire{
+    border:4px dashed orangered;
+     
+
+}
+
+.water{
+    border:4px dashed blue
+}
+
+.grass{
+    border: 4px dashed green
+}
+
+.electric{
+    border: 4px dashed yellow
+}
+#pikachu{
+    border-width:8px ;
+
+}
+#contenedor strong{
+    background-color: yellow;
+}
+#fire{
+    display: flex;
+}
+section#fire figure{
+    margin:0;
+    box-sizing: border-box;
+}
+section#fire figure img{
+    width: 100%;
+}
+#water{
+    display: flex;
+}
+section#water figure{
+    margin:0;
+    box-sizing: border-box;
+}
+section#water figure img{
+    width: 100%;
+}
+#grass{
+    display: flex;
+}
+section#grass figure{
+    margin:0;
+    box-sizing: border-box;
+}
+section#grass figure img{
+    width: 100%;
+}
+#electric{
+    display: flex;
+}
+section#electric figure{
+    margin:0;
+    box-sizing: border-box;
+}
+section#electric figure img{
+    width: 100%;
+}
