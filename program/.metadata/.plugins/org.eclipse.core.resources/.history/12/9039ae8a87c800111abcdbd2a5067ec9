@@ -1,0 +1,21 @@
+package bucles;
+
+public class Ejercicio22 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num=5;
+		for(int i=num; i<=5; i++) {
+			for (int j=i; j<=5; j++) {
+				System.out.print("*");
+				
+			}
+			
+			System.out.println(" ");
+		}
+		
+		
+		
+	}
+
+}

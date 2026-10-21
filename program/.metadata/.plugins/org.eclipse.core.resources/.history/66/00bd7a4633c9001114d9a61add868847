@@ -1,0 +1,15 @@
+package arrays;
+
+public class Entrenamiento6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] nums= {1, 101, 201, 301, 401, 501, 601, 701, 801, 901};
+		for (int i=(nums.length-1); i<=0; i--) {
+		
+				System.out.print(nums[i]+"-");
+			
+		}
+	}
+
+}

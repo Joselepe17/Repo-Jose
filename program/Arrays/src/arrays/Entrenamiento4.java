@@ -1,0 +1,18 @@
+package arrays;
+
+public class Entrenamiento4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 
+		double [] nums= {6.5, 8.0, 4.5, 9.0, 7.0};
+		double suma=0;
+		
+		for(int i=0; i<nums.length;i++) {
+			suma+=nums[i];
+		}
+		double media=(suma/(nums.length));
+		System.out.println("La media es " + media);
+	}
+
+}

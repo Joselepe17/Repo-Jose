@@ -1,0 +1,17 @@
+package prueba;
+
+public class Ej1Prueba {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int i=100; i>=70; i-=3) {
+			if(i!=70) {
+			System.out.print(i + ", ");
+			} else {
+				System.out.print(i);
+			}
+			
+		}
+	}
+
+}

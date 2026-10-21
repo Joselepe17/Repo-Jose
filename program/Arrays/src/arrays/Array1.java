@@ -1,0 +1,17 @@
+package arrays;
+
+public class Array1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] numeros= {3, 2, 7};
+		System.out.println("Tamaño: " + numeros.length);
+		System.out.println("Segundo elemento: " + numeros[1]);	
+		System.out.println("Ultimo elemento: " + numeros[numeros.length - 1]);
+		numeros[0] =7;
+		numeros[0] = numeros[0]*2;
+		
+		
+	}
+
+}

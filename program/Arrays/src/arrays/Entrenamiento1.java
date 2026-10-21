@@ -1,0 +1,14 @@
+package arrays;
+
+public class Entrenamiento1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int [] nums= {3, 8, 5, 1};
+		for(int i=0; i<nums.length; i++) {
+			System.out.println("Posición "+ i + ": "+ nums[i]);
+		}
+	}
+
+}

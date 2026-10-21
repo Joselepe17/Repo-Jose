@@ -1,0 +1,20 @@
+package arrays;
+
+public class Entrenamiento6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] nums= new int[10];
+		for(int i=0; i<10; i++) {
+			nums[i]= i*100+1;
+		}
+		for(int i=(nums.length-1); i>=0; i--) {
+			System.out.print(nums[i]);
+			if(i>0) {
+				System.out.print( "-");
+			}
+			
+		}
+	}
+
+}

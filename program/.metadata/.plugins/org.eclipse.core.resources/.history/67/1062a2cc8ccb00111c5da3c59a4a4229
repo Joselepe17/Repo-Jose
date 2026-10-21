@@ -1,0 +1,20 @@
+package arrays;
+
+public class Entrenamiento13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 String[] nombres = {"Ana", "Guillermo",
+	                "Luis", "Marta"};
+	        String masLargo = nombres[0];
+	        for (String nombre : nombres) {
+	            // length(): cuántas letras tiene
+	            if (nombre.length() > masLargo.length()) {
+	                masLargo = nombre;
+	            }
+	        }
+	        System.out.println("El nombre más largo es "
+	                + masLargo + ".");
+	}
+
+}

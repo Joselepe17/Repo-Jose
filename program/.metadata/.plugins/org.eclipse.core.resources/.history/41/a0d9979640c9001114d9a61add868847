@@ -1,0 +1,15 @@
+package arrays;
+
+public class Entrenamiento10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] nums= {3, 5, 7, 2, 8};
+		for(int i=0; i<nums.length; i++) {
+			if(i>i) {
+				System.out.println("El maximo es"+ i);
+			}
+		}
+	}
+
+}

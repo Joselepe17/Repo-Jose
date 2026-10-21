@@ -1,0 +1,20 @@
+package arrays;
+
+public class Ejercicio12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] nums= {12, 7, 25, 3, 18};
+		for(int i=0; i<nums.length; i++) {
+			for(int num:nums) {
+				if(num==3) {
+					System.out.println("El número 3 esta en la posicion "+ i);
+				}else {
+					System.out.println("No está");
+				}
+				
+			}
+		}
+	}
+
+}

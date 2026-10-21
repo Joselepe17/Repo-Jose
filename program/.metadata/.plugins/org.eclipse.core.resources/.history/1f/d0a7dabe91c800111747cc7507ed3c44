@@ -1,0 +1,15 @@
+package arrays;
+
+public class Array2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] numeros= {1, 2, 3, 4};
+		numeros[0]*=2;
+		numeros[1]*=2;
+		numeros[2]*=2;
+		numeros[3]*=2;
+		System.out.println(numeros);		
+	}
+
+}
