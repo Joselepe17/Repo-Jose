@@ -1,0 +1,106 @@
+
+img {
+    height: auto;
+}
+.menu a{
+    color: #762609      ;
+}
+.menu a:hover{
+color:orangered
+}
+.menu a:visited{
+color:cadetblue
+}
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+}
+.fichas section:hover{
+    border:2px red solid;
+    border-radius: 5 px;
+}
+.logo img {
+    width: 48px;
+}
+#abrir-menu{
+    margin-top: 30px;
+    position: absolute;
+    top: 10px;right: 10px;
+}
+.menu ul {
+    display: none;
+    gap: 1rem;
+}
+.menu ul.abierto{
+    display: flex;
+}
+.menu .activo {
+    font-weight: bold;
+}
+
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+main ul,
+main ol {
+    padding-left: 1.5rem;
+}
+
+main ul {
+    list-style: disc;
+}
+
+main ol {
+    list-style: decimal;
+}
+.etiqueta{
+    font-size: 5rem;
+    color: red;
+}
+.fichas section{
+    border: 2px #444 solid;
+    padding: 1,5rem;
+    border-radius: 12px;
+}
+
+@media(min-width:550px){
+   
+}
+
+@media(min-width:960px){
+    #abrir-menu{
+        display: none;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .fichas{
+        display: flex;gap: 10px;
+    }
+    .fichas section{
+        flex: 1;
+    }
+}
+
+
+
+
+@media(min-width:1200px){
+    
+}

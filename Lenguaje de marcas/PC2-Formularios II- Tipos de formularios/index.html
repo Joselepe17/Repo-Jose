@@ -185,6 +185,89 @@
             <button>Probar</button>
         </form>
     </section>
+    <section>
+        <h2>Radio</h2>
+        <def>Permite una selección múltiple</def>
+        <code>&lt;input type="radio"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>¿En qué año fue coronado Napoléon Bonaparte?</label>
+            <label>1805:
+                <input type="radio" name="anio" value="1805" checked>
+            </label>
+            <label>1800:
+                <input type="radio"  name="anio" value="1800">
+            </label>
+            <label>2025:
+                <input type="radio"  name="anio" value="2025">
+            </label>
+            <button>Probar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Lista despegable</h2>
+        <def>Permite seleccionar una opcion en una lista</def>
+        <code>&lt;select"&gt;</code>
+        <form method="get" action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Elige tu provincia</label>
+            <select name:"provincia">
+                <option value="almeria">Almeria </option>
+                <option value="cadiz">Cadiz </option>
+                <option value="cordoba">Cordoba </option>
+                <option value="sevilla">Sevilla </option>
+                <option value="huelva">Huelva </option>
+            </select>
+            
+            <button>Probar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Area de texto</h2>
+        <def>Permite incluir texto en vareas líneas</def>
+        <code>&lt;textarea"&gt;</code>
+        <form  action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Comentarios
+                <textarea name="comentario" cols="40" rows="7">Me gusta mucho la clase de Lenguaje de marcas y en especial su profesor
+                     </textarea>
+            </label>
+            <input type="submit" value="Enviar">
+            
+            <button>Probar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Lista de datos</h2>
+        <def>Permite sugerencias</def>
+        <code>&lt;input list="Provincias"&gt;</code>
+        <form  action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Provincias
+                <input list="provincias" name="provincias">
+                <datalist id="provincias" name="provincias"> 
+                <option value="almeria">Almeria </option>
+                <option value="cadiz">Cadiz </option>
+                <option value="cordoba">Cordoba </option>
+                <option value="sevilla">Sevilla </option>
+                <option value="huelva">Huelva </option>
+                </datalist>
+             </label>
+            <input type="submit" value="Enviar">
+            
+            <button>Probar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Subida de archivos</h2>
+        <def>Seleccionar</def>
+        <code>&lt;input type="file"&gt;</code>
+        <form  action="https://www.espacio199.com/clases/recibe.php"> 
+            <label>Selecciona un archivo
+                <input name="archivo" type="file">
+                
+             </label>
+            <input type="submit" value="Enviar">
+            
+            
+        </form>
+    </section>
    </main>
   
 </body>

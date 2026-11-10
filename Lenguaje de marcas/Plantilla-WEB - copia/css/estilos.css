@@ -1,0 +1,36 @@
+main{
+    display:flex;
+    width: 90%;max-width: 1200px;
+    margin: auto;
+}
+main section{
+    flex-grow: 1;
+    padding: 18px;
+}
+#red{
+    background-color: rgb(255,0,0);
+}
+#green{
+    background-color: #00ff00;
+}
+#blue{
+    background-color: #0000ff;
+}
+#orange{
+    background-color: #ff9900;
+}
+#yellow{
+    background-color: #ff0;
+}
+#magenta{
+    background-color: #f0f;
+}
+#cyan{
+    background-color: #0ff;
+}
+#prueba1{
+    background-color: rgb(210, 105, 30);
+}
+#prueba2{
+    background-color: rgb(210, 106, 30);
+}

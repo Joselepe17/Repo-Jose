@@ -1,0 +1,37 @@
+h1{
+    font-size: 4em;
+    color: rgb(185, 30, 30)
+}
+
+
+
+
+
+main.paises{
+    display: flex;
+    background-color: aquamarine;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+main.paises section.ficha{
+padding: 10px;
+border: 1px solid gray;
+background-color: rgb(0, 255, 255);
+/* flex-grow: 1;
+flex-shrink:0; 
+flex-basis: 25%; */
+flex:1 0 calc(20% - 10px);
+max-width: calc(20% - 10px);
+
+}
+/* #colombia{
+   flex-shrink: 0;
+} */
+figure img{
+    width: 100%;
+}
